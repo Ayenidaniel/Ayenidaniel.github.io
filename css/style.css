@@ -351,10 +351,13 @@ opacity: .8;
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
+    padding-top: 20px;
+   
 }
 #projects .projects-header h1{
     margin-bottom: 20px;
-    font-size:20px
+    
+    font-size:30px
 }
 #projects .all-projects {
     display: flex;
