@@ -504,10 +504,10 @@ p{
  }
  #contact .contact-item{ 
     width: 80%;
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
     border-radius: 10px;
-    padding: 30px;
+    padding: 20px;
     margin: 30px;
     display: flex;
     justify-content: center;
@@ -520,8 +520,13 @@ p{
     box-shadow: 0px 0px 1px 0 rgb(141, 138, 138);
 }
 #contact .icon{
-    width: 70px;
+    width: 100px;
     margin: 0 auto;
+    
+    
+}
+
+.contact .contact-item .icon{
     margin-bottom: 10px;
 }
 #contact .contact-info h1{
@@ -721,18 +726,20 @@ color: white;
     flex-direction: row;
     /* justify-content: space-evenly; */
     margin: 0;
-    padding: 20px;
+    
 
 }
 #contact .contact-item{
     margin: 20px;
-    /* width: 30%; */
-    /* margin: 0; */
     flex-direction: row;
+    padding: 2px;
+    padding-bottom: 20px;
 } 
 #contact .contact-item .icon{
     height: 25px;
-    width: 25px;
+    width: 40px;
+   
+
 }
 #contact .contact-item .icon img{
     object-fit: contain;
