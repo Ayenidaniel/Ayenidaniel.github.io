@@ -496,6 +496,9 @@ opacity: .8;
 /* about section */
 
 /* contact */
+.contact h1{
+    font-size: 25px;
+}
 #contact .contact {
     flex-direction: column;
     max-width: 1200px;
@@ -707,6 +710,9 @@ color: white;
 /* about */
 
 /* contact */
+.contact h1{
+    font-size: 50px;
+}
 #contact .contact{
     flex-direction: column;
     padding: 10px 0;
